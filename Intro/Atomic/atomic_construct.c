@@ -1,0 +1,20 @@
+#include <omp.h>
+#include<stdio.h>
+
+main()
+{
+
+int x;
+x = 0;
+
+#pragma omp parallel shared(x) 
+  {
+
+  #pragma omp atomic 
+  x = x + 1;
+
+  }  /* end of parallel section */
+ 
+printf("%d\n",x);
+
+}

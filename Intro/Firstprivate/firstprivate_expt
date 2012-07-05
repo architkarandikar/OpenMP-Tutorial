@@ -1,0 +1,16 @@
+A : In thread 0 : (x,y,z)=(3,5,0).
+B : In thread 0 : (x,y,z)=(4,6,1).
+A : In thread 1 : (x,y,z)=(3,5,0).
+B : In thread 1 : (x,y,z)=(4,6,1).
+A : In thread 7 : (x,y,z)=(3,5,0).
+B : In thread 7 : (x,y,z)=(4,6,1).
+A : In thread 3 : (x,y,z)=(3,5,0).
+B : In thread 3 : (x,y,z)=(4,6,1).
+A : In thread 6 : (x,y,z)=(3,5,0).
+B : In thread 6 : (x,y,z)=(4,6,1).
+A : In thread 4 : (x,y,z)=(3,5,0).
+B : In thread 4 : (x,y,z)=(4,6,1).
+A : In thread 5 : (x,y,z)=(3,5,0).
+B : In thread 5 : (x,y,z)=(4,6,1).
+A : In thread 2 : (x,y,z)=(3,5,0).
+B : In thread 2 : (x,y,z)=(4,6,1).
